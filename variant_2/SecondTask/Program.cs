@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Xml.Serialization;
 
 namespace SecondTask
@@ -11,8 +12,10 @@ namespace SecondTask
     {
         public static void Main()
         {
-            char separator = Path.DirectorySeparatorChar;
-            string path = $"..{separator}..{separator}..{separator}ConsoleApp{separator}bin{separator}debug{separator}out.txt";
+            Console.InputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8;
+
+            string path = $"../../../ConsoleApp/bin/debug/out.txt";
             var streets = DeserializeStreets(path);
 
             var tempName = (from street in streets

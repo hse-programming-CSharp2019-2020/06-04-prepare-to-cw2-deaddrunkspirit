@@ -17,26 +17,25 @@ namespace variant_2
         {
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
-            char sep = Path.DirectorySeparatorChar;
+
             string path = $"data.txt";
             int N = GetInt("Введите N: ");
 
             List<Street> streets = new List<Street>();
-            if (CheckStreetDataFile(path))
+            if (CheckFile(path))
             {
-                var streetsData = File.ReadAllLines(path);
+                var data = File.ReadAllLines(path);
 
-                foreach (var street in streetsData)
+                foreach (var line in data)
                 {
-                    string[] str = street.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] str = line.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
                     int temp = 0;
-                    var тгьиукы = (from t in str
-                                where int.TryParse(t, out temp)
+                    var number = (from x in str
+                                where int.TryParse(x, out temp)
                                 select temp).ToList();
                     try
                     {
-
-                        streets.Add(new Street(str[0], тгьиукы.ToArray()));
+                        streets.Add(new Street(str[0], number.ToArray()));
                     }
                     catch (ArgumentNullException e)
                     {
@@ -78,6 +77,7 @@ namespace variant_2
         {
             string result = $"{(char)rnd.Next('A', 'Z' + 1)}";
             int length = rnd.Next(3, 8);
+
             for (int i = 0; i < length; i++)
                 result += (char)rnd.Next('a', 'z' + 1);
             
@@ -86,13 +86,13 @@ namespace variant_2
 
         static int[] GenerateIntArr()
         {
-            var numbers = new List<int>();
             int length = rnd.Next(1, 11);
+            var numbers = new int[length];
 
             for (int i = 0; i < length; i++)
-                numbers.Add(rnd.Next(1, 101));
+                numbers[i] = rnd.Next(1, 101);
 
-            return numbers.ToArray();
+            return numbers;
         }
 
         static int GetInt(string message)
@@ -105,7 +105,7 @@ namespace variant_2
             return number;
         }
 
-        static bool CheckStreetDataFile(string path)
+        static bool CheckFile(string path)
         {
             if (!File.Exists(path))
                 return false;
@@ -114,26 +114,25 @@ namespace variant_2
 
             if (streetsData.Length == 0)
                 return false;
-            bool validData = true;
+            bool isCorrect = true;
 
             foreach (var street in streetsData)
             {
                 string[] str = street.Split(new char[] { ' ' });
                 if (str.Length < 2)
                     return false;
-                int temp = 0;
                 var nums = (from t in str
-                            where int.TryParse(t, out temp)
+                            where int.TryParse(t, out int temp)
                             select t).ToList();
 
                 if (nums.Count != str.Length - 1)
                 {
-                    validData = false;
+                    isCorrect = false;
                     break;
                 }
             }
 
-            return validData;
+            return isCorrect;
         }
     }
 }
