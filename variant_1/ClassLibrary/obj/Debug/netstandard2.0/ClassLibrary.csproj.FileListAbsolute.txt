@@ -1,0 +1,9 @@
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\ClassLibrary\bin\Debug\netstandard2.0\ClassLibrary.deps.json
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\ClassLibrary\bin\Debug\netstandard2.0\ClassLibrary.dll
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\ClassLibrary\bin\Debug\netstandard2.0\ClassLibrary.pdb
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.dll
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nlD7REaq4gelvYTrxVsZFeLj66QAT1wnEZTpkWv6Zq7wQ8Veoge0ztSJLTKWrJRfVMOl05lv2+IHkwfsdH/XAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deaddrunkspirit\\Desktop\\Prog\\Sem3\\06-04-prepare-to-cw2-deaddrunkspirit\\variant_2\\Library\\Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deaddrunkspirit\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

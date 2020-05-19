@@ -1,0 +1,10 @@
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\bin\Debug\variant_1.exe.config
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\bin\Debug\variant_1.exe
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\bin\Debug\variant_1.pdb
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\bin\Debug\ClassLibrary.dll
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\bin\Debug\ClassLibrary.pdb
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\obj\Debug\variant_1.csprojAssemblyReference.cache
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\obj\Debug\variant_1.csproj.CoreCompileInputs.cache
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\obj\Debug\variant_1.csproj.CopyComplete
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\obj\Debug\variant_1.exe
+C:\Users\deaddrunkspirit\Desktop\Prog\Sem3\06-04-prepare-to-cw2-deaddrunkspirit\variant_1\variant_1\obj\Debug\variant_1.pdb
